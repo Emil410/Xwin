@@ -302,6 +302,11 @@ form {
     transition: 0.4s;
 }
 
+#expertstwo .row {
+    display: flex;
+    gap: 20px;
+}
+
 #top_tags a:hover {
     background-color: #3e9fbe;
     color: white;
@@ -1672,37 +1677,9 @@ footer .footer_panel p.address>i,
     color: #3e9fbe;
 }
 
-.owl-carousel .owl-wrapper:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-}
-
 .owl-carousel {
     position: relative;
     width: 100%;
-}
-
-.owl-carousel .owl-wrapper {
-    position: relative;
-    width: 4688px;
-    left: 0px;
-    display: block;
-    transition: all 800ms ease 0s;
-    transform: translate3d(-879px, 0px, 0px);
-}
-
-.owl-carousel .owl-wrapper-outer {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-}
-
-.owl-carousel .owl-wrapper-outer.autoHeight {
-    transition: height 500ms ease-in-out;
 }
 
 .owl-carousel .owl-item {
@@ -1904,11 +1881,6 @@ h5 {
 
 h6 {
     font-size: 12px
-}
-
-.sbp-wrapper-outer {
-    display: flex;
-    gap: 25px;
 }
 
 .container {
