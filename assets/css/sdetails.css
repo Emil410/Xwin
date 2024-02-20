@@ -1,0 +1,89 @@
+#services .container {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+#sdetails_section {
+    margin-top: 80px;
+}
+
+#sdetails_section .container {
+    display: flex;
+    gap: 30px;
+}
+
+#left_detail {
+    width: 65%;
+}
+
+#img_in_details {
+    width: 100%;
+}
+
+#img_in_details img {
+    width: 100%;
+}
+
+#div_course {
+    background: #f2f2f2;
+    padding: 20px 15px;
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+}
+
+.fa-users {
+    color: white;
+    width: 32px;
+    height: 32px;
+    background-color: #73ae20;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#name_of_teacher {
+    display: flex;
+}
+
+#name_of_teacher p {
+    font-size: 0.813rem;
+    color: #5b5b5b;
+    line-height: normal;
+    font-family: 'Open Sans';
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#name_of_teacher h5 {
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #5b5b5b;
+}
+
+.icons_aside {
+    display: flex;
+    align-items: center;
+}
+
+#left_detail h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#sdetails_section p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#sdetails_section ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sdetails_section li {
+    width: 30%;
+}

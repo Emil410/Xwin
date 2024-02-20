@@ -1,0 +1,158 @@
+.company {
+    display: flex;
+    gap: 25px;
+    background-color: white;
+    width: 32%;
+    border-radius: 7px;
+    height: 170px;
+    aspect-ratio: 1/2;
+    margin-top: 30px;
+}
+
+.img_construction {
+    margin-top: 45px;
+    margin-left: 5px;
+    width: 140px;
+}
+
+.img_gold {
+    margin-top: 23px;
+    width: 130px;
+    margin-left: 20px;
+}
+
+.img_nd {
+    width: 170px;
+    margin-top: 35px;
+}
+
+.text_in_inshaat {
+    width: 38%;
+    margin-top: 45px;
+}
+
+.text_in_inshaat h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+#companies_in_inshaat {
+    display: flex;
+    gap: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+    .img_nd {
+        width: 170px;
+    }
+    .company {
+        display: flex;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .img_construction {
+        margin-top: 45px;
+        margin-left: 5px;
+        width: 55%;
+    }
+    .text_in_inshaat {
+        width: 42%;
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .company {
+        gap: 25px;
+        width: 48%;
+    }
+    #companies_in_inshaat {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+    #inshaat_section {
+        height: 900px;
+    }
+    .img_nd {
+        width: 50%;
+    }
+    .text_in_inshaat {
+        width: 36%;
+        margin-top: 51px;
+    }
+    .img_construction {
+        margin-top: 45px;
+        margin-left: 5px;
+        width: 49%;
+    }
+    .img_gold {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img_gold {
+        width: 140px;
+        margin-top: 19px;
+    }
+    #companies_in_inshaat {
+        display: flex;
+        flex-direction: column;
+    }
+    .company {
+        width: 100%;
+        gap: 30px;
+    }
+    #inshaat_section {
+        height: 1200px;
+    }
+    .img_nd {
+        width: 260px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 320px;
+    }
+    .page_nav span {
+        color: #7f7f7f;
+        font-size: 0.727rem;
+        line-height: 1.5rem;
+        font-family: 'Open Sans';
+    }
+    .img_construction {
+        margin-top: 43px;
+        margin-left: 5px;
+        width: 170px;
+    }
+    .img_gold {
+        width: 110px;
+        margin-top: 19px;
+    }
+    .img_nd {
+        width: 230px;
+        margin-top: 20px;
+    }
+    .text_in_inshaat {
+        width: 52%;
+        margin-top: 32px;
+    }
+    .company {
+        gap: 10px;
+    }
+    .company {
+        height: 140px;
+    }
+    .img_construction {
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 230px;
+    }
+    #inshaat_section {
+        height: 1270px;
+    }
+}

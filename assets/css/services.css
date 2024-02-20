@@ -1,0 +1,96 @@
+.div_in_services {
+    width: 31%;
+    margin-top: 70px;
+}
+
+.div_in_services:hover img {
+    transform: scale(1.15);
+}
+
+.div_in_services:hover a {
+    color: #00aced;
+}
+
+.div_in_services h3 {
+    margin-top: 20px;
+}
+
+.img_in_services {
+    overflow: hidden;
+}
+
+.div_in_services img {
+    width: 100%;
+    border-radius: 4px;
+    transition: 2s;
+}
+
+.view_models {
+    width: 42%;
+    margin-top: 20px;
+    height: 38px;
+    background-color: #73AE20;
+    color: white;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 13px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Open Sans';
+    cursor: pointer;
+}
+
+.view_models::after {
+    background: #3e9fbe;
+    border: 1px solid #3e9fbe;
+    border-radius: 4px;
+    content: "";
+    height: 96%;
+    left: -50%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 198%;
+    z-index: -1;
+    transition: 0.7s ease all;
+}
+
+.view_models:hover::after {
+    transform: scale(0.5, 1);
+    opacity: 1;
+}
+
+#services .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+    .div_in_services {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 320px;
+    }
+}

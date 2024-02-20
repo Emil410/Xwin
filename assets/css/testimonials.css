@@ -1,0 +1,84 @@
+#messages span {
+    font-weight: 200;
+    font-size: 2.000rem;
+}
+
+#messages h2 {
+    width: 285px;
+    font-size: 2.000rem;
+    height: 40px;
+    font-weight: 500;
+    border-bottom: 1px solid #DADADA;
+}
+
+.under_client {
+    height: 4px;
+    width: 70px;
+    background: #73AE20;
+    display: block;
+}
+
+#messages {
+    margin-top: 100px;
+}
+
+.foto_text {
+    text-align: center;
+    padding: 20px 16px;
+    position: relative;
+    margin-top: 10px;
+    background: #3e9fbe;
+}
+
+.foto_text p {
+    color: #fff;
+    font-size: 0.938rem;
+    line-height: normal;
+    font-family: 'Open Sans';
+}
+
+.foto_text::after {
+    border-right: 30px solid transparent;
+    border-top: 25px solid #3e9fbe;
+    bottom: -25px;
+    content: "";
+    height: 0;
+    left: 18px;
+    position: absolute;
+    width: 0;
+}
+
+.clients {
+    width: 23%;
+}
+
+.div_under_text_blue {
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.text_near_foto span {
+    color: #3e9fbe;
+    margin-top: 9px;
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: 'Open Sans';
+}
+
+.text_near_foto p {
+    color: #646464;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-family: 'Open Sans';
+}
+
+.foto_text {
+    margin-top: 40px;
+}
+
+.all_clients {
+    display: flex;
+    gap: 21px;
+}

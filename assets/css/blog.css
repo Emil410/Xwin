@@ -1,0 +1,342 @@
+#blog .container {
+    display: flex;
+    gap: 25px;
+}
+
+#column_divs_first {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.column_div_first {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: 365px;
+    margin-top: 50px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.fa-message-lines {
+    font-size: 18px;
+    color: #3e9fbe;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.img_in_column_div {
+    width: 96%;
+}
+
+.img_own {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.column_div_first h3 {
+    font-size: 1.500rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.column_div_first a {
+    line-height: 1.5rem;
+    font-family: 'Open Sans';
+    color: #5b5b5b;
+    font-size: 12px;
+}
+
+.text_in_column_div ul {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.text_in_column_div p {
+    margin-top: 15px;
+    color: #5b5b5b;
+    line-height: normal;
+    font-size: .9rem;
+    font-family: 'Open Sans';
+}
+
+.read_more_btn {
+    margin-top: 30px;
+    width: 30%;
+    height: 40px;
+    border: 1px solid #0f0f0f;
+    padding: 10px 30px;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 13px;
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+}
+
+.read_more_btn::before {
+    background: #73AE20;
+    border: 1px solid #73AE20;
+    border-radius: 4px;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all .4s ease;
+    width: 100%;
+    z-index: -1;
+}
+
+.read_more_btn:hover::before {
+    transform: scale(0.5, 1);
+    opacity: 1;
+}
+
+.read_more_btn:hover {
+    color: white;
+}
+
+#featured_courses {
+    padding: 15px;
+    background-color: #ebeff2;
+    width: 39%;
+    margin-top: 90px;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+form {
+    background: #d8dadb;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    border-collapse: separate;
+}
+
+#search {
+    height: 42px;
+    font-family: inherit;
+    width: 100%;
+    margin-bottom: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #55555559;
+    background-color: #fff;
+}
+
+.fa-magnifying-glass {
+    background: #73AE20;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    height: 42px;
+    width: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#featured_courses h3 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 1.500rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.ds_flex {
+    display: flex;
+    gap: 10px;
+    height: 140px;
+    border-bottom: 1px solid #d5d5d5;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.text_aside h5 {
+    font-weight: bold;
+    font-size: 0.875rem;
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.free_btn {
+    font-size: 12px;
+    padding: 5px 10px;
+    font-weight: bold;
+    line-height: 1;
+    background: #3e9fbe;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.icons_aside i {
+    color: #ffcc00;
+    margin-top: 5px;
+}
+
+.name_in_aside {
+    font-size: 0.813rem;
+    display: block;
+    color: #0f0f0f;
+    line-height: 1.5rem;
+    font-family: 'Open Sans';
+}
+
+#top_tags ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#top_tags a {
+    border: 1px solid #bababa;
+    color: #5b5b5b;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 2px;
+    line-height: 1;
+    padding: 6px 10px;
+    background: #fff;
+    font-family: 'Open Sans';
+    transition: 0.4s;
+}
+
+#top_tags a:hover {
+    background-color: #3e9fbe;
+    color: white;
+}
+
+#transition_section {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+#transition_section ul {
+    display: flex;
+    gap: 15px;
+}
+
+#transition_section a {
+    color: #0f0f0f;
+    font-size: 1rem;
+    font-family: 'Open Sans';
+    transition: 0.4s;
+}
+
+#transition_section a:hover {
+    color: #73AE20;
+}
+
+@media screen and (max-width: 1200px) {
+    .read_more_btn {
+        width: 33%;
+    }
+    .column_div_first {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #featured_courses {
+        width: 45%;
+    }
+    .read_more_btn {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #blog .container {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+    }
+    #featured_courses {
+        width: 100%;
+    }
+    .icons_aside {
+        display: inline-block;
+    }
+    .ds_flex {
+        gap: 10px;
+        height: 90px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    #featured_courses h3 {
+        font-size: 1.25rem;
+    }
+    #featured_courses {
+        margin-top: 20px;
+    }
+    #transition_section {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    footer {
+        background: #3e9fbe;
+        margin-top: 70px;
+    }
+    #icon_first {
+        width: 44%;
+    }
+    .fa-magnifying-glass {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+    .column_div_first {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    #column_divs_first {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .column_div_first {
+        height: 805px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 320px;
+    }
+    .column_div_first {
+        height: 725px;
+    }
+    .read_more_btn {
+        width: 50%;
+    }
+    .container {
+        width: 320px;
+    }
+    .fa-magnifying-glass {
+        width: 20%;
+    }
+}
